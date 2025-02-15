@@ -1,0 +1,48 @@
+{
+  "name": "litdevcomponents",
+  "version": "1.0.0",
+  "description": "Lit dev components",
+  "main": "main.js",
+  "module": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "npm-run-all --parallel start watch",
+    "build-bulma": "sass --load-path=node_modules src/sass/style.scss src/css/style.css --no-source-map",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "lit"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "lit": "^3.2.0",
+    "lit-element": "^4.1.1",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.36.2",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "serve": "^14.2.4"
+  },
+  "author": "Rajanikanth Devulapalli",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "customElements": "custom-elements.json",
+  "dependencies": {
+    "@lit-labs/router": "^0.1.3",
+    "@vaadin/router": "^2.0.0",
+    "bulma": "^1.0.3",
+    "lit-element-router": "^2.0.3",
+    "rollup-plugin-css-only": "^4.5.2",
+    "sass": "^1.83.4"
+  }
+}
+
