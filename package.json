@@ -4,6 +4,7 @@
   "description": "Lit dev components",
   "main": "main.js",
   "module": "main.js",
+  "type": "module",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",

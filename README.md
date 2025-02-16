@@ -1,8 +1,6 @@
-# rollup-starter-app
+# litdevcomponents
 
-This repo contains a bare-bones example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.
-
-*See also https://github.com/rollup/rollup-starter-lib*
+This repo contains an example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.
 
 
 ## Getting started
@@ -10,8 +8,8 @@ This repo contains a bare-bones example of how to create an application using Ro
 Clone this repository and install its dependencies:
 
 ```bash
-git clone <repositoryName>
-cd <repositoryName>
+git clone litdevcomponents
+cd litdevcomponents
 npm install
 
 ```
