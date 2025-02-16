@@ -5,6 +5,7 @@
   "main": "main.js",
   "module": "main.js",
   "type": "module",
+  "files": ["public"],
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
